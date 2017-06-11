@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Lien vers la feuille de style -->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Emotion al Survey</title>
+    
+
+        
+        
+        
+    </head>
+
+    <body>
+        
+        <div id="experiment" class="expe">
+            <img src="plan.png" style="z-index:1">
+            <canvas id="myCanvas" data-processing-sources="PsychoAcous.pde"></canvas>
+        </div>
+
+        <div id="myModal" class="modal1">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Bienvenue !</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Select your language</p>
+                    <select>
+                        <option value="fr">Français</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                </div>
+                <div class="modal-body">
+                    <p>Where are you from ?</p>
+                    <select>
+                        <option value="fr">Europe</option>
+                        <option value="en">Asia</option>
+                        <option value="en">America</option>
+                        <option value="en">Oceania</option>
+                        <option value="en">Africa</option>
+                    </select>
+                     
+                </div>
+            </div>
+            
+        </div>
+        <!-- Lien vers les scripts JS -->
+        <script src="moda.js"></script>
+        <script src="processing.js"></script>
+        <script src="ws.js"></script>
+    </body>
+</html>
+
